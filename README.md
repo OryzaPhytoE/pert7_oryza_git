@@ -1,0 +1,34 @@
+- Membuat folder pert7_nama_git. klik kanan -> show more option -> git bash here
+- Cek git  - -version
+- Konfigurasi Git
+- set user.name : nama pengguna Git global yang akan dicatat pada setiap commit (cek di git log)
+
+- set user.email : email global Git yang juga dicatat dalam setiap commit. biasanya sesuai dengan email akun GitHub/GitLab
+
+- Cek konfigurasi git
+
+- code .
+- git init 
+- Membuat file text.txt. isi file dengan initial commit
+- git status (untracked file)
+- git add .
+- git status (staging area: new file)
+- git commit -m “initial commit”
+- git status (nothing to commit)
+- Membuat perubahan pada file text.txt. Isi dengan Nama NPM kelas
+- git status (not stagged: modified (RED))
+- git add .
+- git status (stagged: modified (GREEN))
+- git commit -m “tambah biodata”
+- git status (nothing to commit)
+- Buka github.com
+- Buat akun github (skip kalo sudah ada)
+- Sign In github
+- Membuat Repository baru (pert7_nama_git)
+- git remote add origin <url>
+- git push
+- Tampilan repo di github
+- Add Readme di github lalu changes commit
+- git fetch
+- git pull
+-git log - -graph
